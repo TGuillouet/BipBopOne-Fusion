@@ -1,0 +1,8 @@
+[submodule "BipBopOne-WebApp"]
+	path = BipBopOne-WebApp
+	url = https://github.com/TGuillouet/BipBopOne-WebApp
+	branch = develop
+[submodule "BipBopOne-WebApp-AR"]
+	path = BipBopOne-WebApp-AR
+	url = https://github.com/TGuillouet/BipBopOne-WebApp-AR
+	branch = develop
