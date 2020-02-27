@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  web:
+    build:
+      context: ./BipBopOne-WebApp
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/BipBopOne-WebApp'
+      - './node_modules'
+    ports:
+      - '3000:3000'
+
+  webar:
+    build:
+      context: ./BipBopOne-WebApp-AR
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/BipBopOne-WebApp-AR'
+      - './node_modules'
+    ports:
+      - '9000:9000'
